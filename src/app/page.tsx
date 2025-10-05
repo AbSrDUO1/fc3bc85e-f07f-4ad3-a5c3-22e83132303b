@@ -19,11 +19,11 @@ export default function Home() {
           onButtonClick={() => console.log('Button clicked')}
           navItems={
             [
-              { name: '#hero', id: 'hero' },
-              { name: '#about', id: 'about' },
-              { name: '#how-to-buy', id: 'how-to-buy' },
-              { name: '#tokenomics', id: 'tokenomics' },
-              { name: '#footer', id: 'footer' }
+              { name: 'hero', id: 'hero' },
+              { name: 'about', id: 'about' },
+              { name: 'how-to-buy', id: 'how-to-buy' },
+              { name: 'tokenomics', id: 'tokenomics' },
+              { name: 'footer', id: 'footer' }
             ]
           }
         />
